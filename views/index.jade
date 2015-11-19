@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  p Here is the color 
+    span#color
+
+block script
+  script(type='text/javascript').
+    Main.init();
